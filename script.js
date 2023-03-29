@@ -36,6 +36,7 @@ return false
 //     return computerScore++
 //   }
 //   }
+
 const updateScore = (winner) => {
   if (winner === 'human') {
         humanScore += 1;
