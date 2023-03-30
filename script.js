@@ -28,17 +28,11 @@ const compareGuesses = (userGuess, computerGuess, secretTarget) => {
      return false
     } else if (absDistanceUser < absDistanceComputer){
       return true
+    } else {
+        return true; //This fixed the issue of user not getting the win if its a tie.
     }
     }
 
-
-// const updateScore = (winner) => {
-//   if (compareGuesses === true){
-//    return humanScore++
-//   } else {
-//     return computerScore++
-//   }
-//   }
 
 const updateScore = (winner) => {
   if (winner === 'human') {
