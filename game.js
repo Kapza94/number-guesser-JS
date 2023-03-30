@@ -1,3 +1,4 @@
+
 let target;
 
 const humanGuessInput = document.getElementById('human-guess');
@@ -12,6 +13,7 @@ const computerWinsDisplay = document.getElementById('computer-wins');
 
 const guessButton = document.getElementById('guess');
 const nextRoundButton = document.getElementById('next-round')
+
 
 guessButton.addEventListener('click', () => {
   // Generate the target value

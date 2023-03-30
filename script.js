@@ -1,7 +1,3 @@
-let humanScore = 0;
-let computerScore = 0;
-let currentRoundNumber = 1;
-
 // Write your code below:
 
 let humanScore = 0;
@@ -11,8 +7,8 @@ let currentRoundNumber = 1;
 // Write your code below:
 
 const generateTarget = () =>{
- return Math.floor(Math.random() * 9);
-}
+    return Math.floor(Math.random() * 9);
+   }
 
 //BELOW - need to use math.abs() to see who is further away from the number that is generated.  
 const compareGuesses = (userGuess, computerGuess, secretTarget) => {
@@ -45,4 +41,7 @@ const updateScore = (winner) => {
   const advanceRound = () => {
     return currentRoundNumber + 1
   }
+
+
+
 
